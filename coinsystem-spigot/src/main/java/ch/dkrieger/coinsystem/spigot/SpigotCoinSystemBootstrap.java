@@ -45,7 +45,6 @@ public class SpigotCoinSystemBootstrap extends JavaPlugin implements DKCoinsPlat
 
 		Bukkit.getPluginManager().registerEvents(new PlayerListener(), this);
 
-		getCommand("dkcoins").setExecutor(new DKCoinsCommand());
 		registerCommand(new CoinsCommand());
 		if(CoinSystem.getInstance().getConfig().command_pay_enabled) registerCommand(new PayCommand());
 		hook();
