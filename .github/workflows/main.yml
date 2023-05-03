@@ -36,4 +36,4 @@ jobs:
           automatic_release_tag: "latest"
           prerelease: false
           files: |
-            /home/runner/work/DKCoins/DKCoins/target/*.jar
+            /home/runner/work/DKCoins/DKCoins/CoinSystem/target/*.jar
