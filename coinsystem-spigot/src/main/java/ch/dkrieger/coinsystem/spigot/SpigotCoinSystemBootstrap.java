@@ -8,7 +8,6 @@ import ch.dkrieger.coinsystem.core.manager.MessageManager;
 import ch.dkrieger.coinsystem.core.player.CoinPlayer;
 import ch.dkrieger.coinsystem.core.player.PlayerColor;
 import ch.dkrieger.coinsystem.spigot.commands.CoinsCommand;
-import ch.dkrieger.coinsystem.spigot.commands.DKCoinsCommand;
 import ch.dkrieger.coinsystem.spigot.commands.PayCommand;
 import ch.dkrieger.coinsystem.spigot.event.BukkitCoinPlayerCoinsChangeEvent;
 import ch.dkrieger.coinsystem.spigot.event.BukkitCoinPlayerColorSetEvent;
