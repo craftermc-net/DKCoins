@@ -36,4 +36,6 @@ jobs:
           automatic_release_tag: "latest"
           prerelease: false
           files: |
-            /home/runner/work/DKCoins/DKCoins/CoinSystem/target/*.jar
+            /home/runner/work/DKCoins/DKCoins/coinsystem-spigot/target/*.jar
+            /home/runner/work/DKCoins/DKCoins/coinsystem-bungeecord/target/*.jar
+            /home/runner/work/DKCoins/DKCoins/coinsystem-tools-spigot-coinbooster/target/*.jar
