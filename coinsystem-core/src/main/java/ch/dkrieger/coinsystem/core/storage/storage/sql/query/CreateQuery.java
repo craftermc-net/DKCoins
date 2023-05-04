@@ -6,12 +6,6 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-/*
- *
- *  * Copyright (c) 2018 Davide Wietlisbach on 16.11.18 20:57
- *
- */
-
 public class CreateQuery extends Query {
 
     public CreateQuery(SQLCoinStorage storage, String query){

@@ -1,7 +1,3 @@
-/*
- * created by Dkrieger on 24.02.18 11:44
- */
-
 package ch.dkrieger.coinsystem.core.config;
 
 import ch.dkrieger.coinsystem.core.CoinSystem;

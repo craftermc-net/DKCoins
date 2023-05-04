@@ -6,11 +6,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-/*
- *
- *  * Copyright (c) 2018 Davide Wietlisbach on 16.11.18 20:57
- *
- */
 
 public class DeleteQuery extends Query {
 

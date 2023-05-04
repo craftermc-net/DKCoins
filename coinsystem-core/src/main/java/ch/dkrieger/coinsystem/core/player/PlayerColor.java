@@ -1,11 +1,5 @@
 package ch.dkrieger.coinsystem.core.player;
 
-/*
- *
- *  * Copyright (c) 2018 Davide Wietlisbach on 24.11.18 21:49
- *
- */
-
 public class PlayerColor {
 
     private final String permission, color;

@@ -17,12 +17,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
-/*
- *
- *  * Copyright (c) 2018 Davide Wietlisbach on 24.11.18 15:55
- *
- */
-
 public abstract class SQLCoinStorage implements CoinStorage {
 
     private Config config;

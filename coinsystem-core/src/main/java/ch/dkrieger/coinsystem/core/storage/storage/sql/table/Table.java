@@ -1,10 +1,5 @@
 package ch.dkrieger.coinsystem.core.storage.storage.sql.table;
 
-/*
- *
- *  * Copyright (c) 2018 Davide Wietlisbach on 16.11.18 20:57
- *
- */
 
 import ch.dkrieger.coinsystem.core.storage.storage.sql.SQLCoinStorage;
 import ch.dkrieger.coinsystem.core.storage.storage.sql.query.*;

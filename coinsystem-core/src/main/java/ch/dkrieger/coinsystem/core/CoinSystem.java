@@ -1,18 +1,10 @@
 package ch.dkrieger.coinsystem.core;
 
-/*
- *
- *  * Copyright (c) 2018 Davide Wietlisbach on 24.11.18 16:49
- *
- */
-
 import ch.dkrieger.coinsystem.core.config.Config;
 import ch.dkrieger.coinsystem.core.manager.MessageManager;
 import ch.dkrieger.coinsystem.core.player.CoinPlayerManager;
 import ch.dkrieger.coinsystem.core.storage.CoinStorage;
 import ch.dkrieger.coinsystem.core.storage.storage.StorageType;
-import ch.dkrieger.coinsystem.core.storage.storage.json.JsonCoinStorage;
-import ch.dkrieger.coinsystem.core.storage.storage.mongodb.MongoDBCoinStorage;
 import ch.dkrieger.coinsystem.core.storage.storage.sql.mysql.MySQLCoinStorage;
 import ch.dkrieger.coinsystem.core.storage.storage.sql.sqlite.SQLiteCoinStorage;
 import ch.dkrieger.coinsystem.core.utils.UpdateChecker;
@@ -66,8 +58,6 @@ public class CoinSystem {
     private void setupStorage() {
         if(this.config.storageType == StorageType.MYSQL) this.storage = new MySQLCoinStorage(this.config);
         else if(this.config.storageType == StorageType.SQLITE) this.storage = new SQLiteCoinStorage(this.config);
-        else if(this.config.storageType == StorageType.MONGODB) this.storage = new MongoDBCoinStorage(this.config);
-        else if(this.config.storageType == StorageType.JSON) this.storage = new JsonCoinStorage(this.config);
 
         if(this.storage != null && this.storage.connect()) {
             System.out.println(MessageManager.getInstance().system_name+"Used Storage: "+this.config.storageType.toString());

@@ -7,11 +7,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-/*
- *
- *  * Copyright (c) 2018 Davide Wietlisbach on 16.11.18 20:57
- *
- */
 
 public class InsertQuery extends Query{
 

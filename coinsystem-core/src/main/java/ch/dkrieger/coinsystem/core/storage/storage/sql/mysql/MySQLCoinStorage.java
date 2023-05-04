@@ -8,11 +8,6 @@ import com.zaxxer.hikari.HikariConfig;
 
 import java.sql.SQLException;
 
-/*
- *
- *  * Copyright (c) 2018 Philipp Elvin Friedhoff on 17.11.18 20:23
- *
- */
 
 public class MySQLCoinStorage extends SQLCoinStorage {
 

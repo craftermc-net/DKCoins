@@ -6,12 +6,6 @@ import java.sql.Connection;
 import java.util.LinkedList;
 import java.util.List;
 
-/*
- *
- *  * Copyright (c) 2018 Davide Wietlisbach on 16.11.18 20:57
- *
- */
-
 public class Query {
 
     protected SQLCoinStorage storage;

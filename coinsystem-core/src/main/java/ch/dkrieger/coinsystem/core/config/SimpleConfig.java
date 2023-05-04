@@ -1,10 +1,5 @@
 package ch.dkrieger.coinsystem.core.config;
 
-/*
- *
- *  * Copyright (c) 2018 Dkrieger on 10.06.18 13:39
- *
- */
 import ch.dkrieger.coinsystem.core.manager.MessageManager;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.config.Configuration;

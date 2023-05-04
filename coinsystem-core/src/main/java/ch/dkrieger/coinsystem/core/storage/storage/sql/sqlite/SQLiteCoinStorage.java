@@ -1,10 +1,5 @@
 package ch.dkrieger.coinsystem.core.storage.storage.sql.sqlite;
 
-/*
- *
- *  * Copyright (c) 2018 Philipp Elvin Friedhoff on 17.11.18 20:38
- *
- */
 
 import ch.dkrieger.coinsystem.core.config.Config;
 import ch.dkrieger.coinsystem.core.manager.MessageManager;
