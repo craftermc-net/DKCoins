@@ -1,8 +1,5 @@
 # DKCoins - Minecraft CoinSystem
 
-Official page:
-<https://www.spigotmc.org/resources/dkcoins-coinsystem-mysql-sqlite-mongodb-json-german-english.39159/>
-
 ## Installation 
 
 ### Spigot
@@ -61,44 +58,6 @@ storage:
     mongodbauthentication: true
     authenticationDatabase: test
     srv: true
-```
-
-### MongoDB
-
-Replace the data to your data.
-
-```java
-storage:
-  folder: plugins/DKCoins/data/
-  type: MONGODB
-  host: localhost
-  port: '27017'
-  user: root
-  password: YourPassword
-  database: DKCoins
-  mongodb:
-    mongodbauthentication: true
-    authenticationDatabase: admin
-    srv: false
-```
-
-### Json
-
-Replace the data to your data.
-
-```java
-storage:
-  folder: plugins/DKCoins/data/
-  type: JSON
-  host: localhost
-  port: '27017'
-  user: root
-  password: password
-  database: DKCoins
-  mongodb:
-    mongodbauthentication: true
-    authenticationDatabase: admin
-    srv: false
 ```
 
 ## Developer (API usage)
@@ -200,6 +159,3 @@ event.getColor(); //get the update cause
 ## License
 
 This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for more informations.
-
-## Support/Discord
-[![Join DKPlugins Discord](https://discordapp.com/api/guilds/513441444959223809/embed.png?style=banner2)](https://discord.gg/PawBsVy)
